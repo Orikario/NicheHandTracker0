@@ -313,7 +313,7 @@ def _result_callback(result, output_image, timestamp_ms):
     pending_inference[0] = False
 
 options = HandLandmarkerOptions(
-    base_options=BaseOptions(model_asset_path=r'F:\WOAH COOL THING XDD\hand_landmarker.task'),
+    base_options=BaseOptions(model_asset_path=r'hand_landmarker.task'),
     running_mode=VisionRunningMode.LIVE_STREAM,
     result_callback=_result_callback,
 )
